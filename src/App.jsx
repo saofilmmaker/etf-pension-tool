@@ -507,7 +507,7 @@ export default function App() {
           </div>
         </div>
 
-        <p style={{ textAlign: "center", fontFamily: M, fontSize: 10, color: "#252525", marginTop: 16, lineHeight: 1.9 }}>
+        <p style={{ textAlign: "center", fontFamily: M, fontSize: 10, color: "#555", marginTop: 16, lineHeight: 1.9 }}>
           Rendimenti storici. Non sono garanzia di risultati futuri.<br />
           Al lordo di tasse (26% plusvalenze IT) e TER ETF (~0.07–0.20%/anno).
         </p>
