@@ -169,7 +169,7 @@ export default function App() {
   const gain = final - invested;
 
   return (
-    <div style={{ fontFamily: F, background: BG, color: TX, minHeight: "100vh", maxWidth: 460, margin: "0 auto", padding: "0 0 64px", boxSizing: "border-box" }}>
+    <div style={{ fontFamily: F, background: BG, color: TX, minHeight: "100vh", maxWidth: 460, margin: "0 auto", padding: "0 0 64px", boxSizing: "border-box", overflow: "hidden" }}>
       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Mono&display=swap" rel="stylesheet" />
 
       {/* HEADER */}
@@ -504,9 +504,6 @@ export default function App() {
             }}>
               Apri Trade Republic →
             </a>
-            <p style={{ textAlign: "center", fontFamily: M, fontSize: 10, color: `${BL}40`, margin: "10px 0 0" }}>
-              refnocode.trade.re/gvj7rdnw
-            </p>
           </div>
         </div>
 
