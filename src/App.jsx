@@ -174,7 +174,7 @@ export default function App() {
 
       {/* HEADER */}
       <div style={{ padding: "40px 20px 28px", borderBottom: `1px solid ${C2}` }}>
-        <img src="/Logo Cresco.png" alt="Cresco" style={{ height: 80, marginBottom: 20, display: "block", margin: "0 auto 20px" }} />
+        <img src="/Logo Cresco.png" alt="Cresco" style={{ height: 130, display: "block", margin: "0 auto 20px" }} />
         <h1 style={{ fontFamily: F, fontWeight: 800, fontSize: 28, margin: "14px 0 10px", lineHeight: 1.2, letterSpacing: "-0.02em" }}>
           Metti da parte{" "}
           <span style={{ color: G }}>{fmt(monthly)}</span> al mese.<br />
