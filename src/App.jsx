@@ -174,6 +174,7 @@ export default function App() {
 
       {/* HEADER */}
       <div style={{ padding: "40px 20px 28px", borderBottom: `1px solid ${C2}` }}>
+        <img src="/Logo Cresco.png" alt="Cresco" style={{ height: 52, marginBottom: 18, display: "block" }} />
         <Tag>ETF CALCULATOR</Tag>
         <h1 style={{ fontFamily: F, fontWeight: 800, fontSize: 28, margin: "14px 0 10px", lineHeight: 1.2, letterSpacing: "-0.02em" }}>
           Metti da parte{" "}
