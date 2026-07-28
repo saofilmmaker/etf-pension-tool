@@ -479,7 +479,7 @@ export default function App() {
 
             {/* Steps */}
             {[
-              { n: "1", t: "Scrivimi su Instagram", d: "Mandami un messaggio su @saothefilmmaker. Ci vogliono 30 secondi." },
+              { n: "1", t: "Clicca il bottone qui sotto", d: "Il messaggio viene copiato automaticamente. Apri il DM e incolla — ci vuole 1 tap." },
               { n: "2", t: "Ricevi il link riservato", d: "Ti rispondo con il link per aprire Trade Republic e attivare il bonus." },
               { n: "3", t: "Apri il conto e investi", d: "10 minuti dal telefono. Fai 3 investimenti e versa €100 entro 21 giorni: il bonus è tuo." },
             ].map((s, i) => (
@@ -494,6 +494,11 @@ export default function App() {
                 <div style={{ paddingTop: 2 }}>
                   <p style={{ margin: "0 0 2px", fontFamily: F, fontSize: 13, fontWeight: 600, color: TX }}>{s.t}</p>
                   <p style={{ margin: 0, fontSize: 12, color: DM, lineHeight: 1.5 }}>{s.d}</p>
+                  {i === 0 && (
+                    <p style={{ margin: "6px 0 0", fontFamily: M, fontSize: 11, color: BL, background: `${BL}12`, border: `1px solid ${BL}30`, borderRadius: 8, padding: "6px 10px", lineHeight: 1.5 }}>
+                      "Ciao! Ho usato il tuo tool ETF e voglio aprire Trade Republic con il tuo link 🌱"
+                    </p>
+                  )}
                 </div>
               </div>
             ))}
