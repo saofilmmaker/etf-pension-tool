@@ -430,19 +430,19 @@ export default function App() {
             <p style={{ fontFamily: M, fontSize: 9, color: DM, letterSpacing: "0.12em", margin: "0 0 8px" }}>PRIMA MOSSA</p>
             <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
               {[
-                { t: "Scarica TR", dim: false },
+                { t: "Usa il tool", dim: false },
                 { t: "→", dim: true },
-                { t: "Apri conto", dim: false },
+                { t: "Scrivimi su IG", dim: false },
                 { t: "→", dim: true },
-                { t: "Cerca SXR8", dim: false, mono: true },
+                { t: "Ricevi il link", dim: false, green: true },
                 { t: "→", dim: true },
-                { t: `PAC ${fmt(monthly)}/mese`, dim: false, green: true },
+                { t: "Apri TR", dim: false, green: true },
                 { t: "→", dim: true },
                 { t: "Fatto ✓", dim: false, green: true },
               ].map((s, i) => (
                 <span key={i} style={{
-                  fontFamily: s.mono ? M : F,
-                  fontSize: s.mono ? 11 : 13,
+                  fontFamily: F,
+                  fontSize: 13,
                   fontWeight: s.green || !s.dim ? 600 : 400,
                   color: s.green ? G : s.dim ? D2 : "#888",
                 }}>{s.t}</span>
@@ -467,18 +467,21 @@ export default function App() {
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke={BL} strokeWidth="1.4" strokeLinecap="round">
                 <path d="M6 1l1.2 2.5L10 4l-2 2 .5 2.8L6 7.5 3.5 8.8 4 6 2 4l2.8-.5L6 1z"/>
               </svg>
-              <span style={{ fontFamily: M, fontSize: 10, color: BL, letterSpacing: "0.1em", fontWeight: 700 }}>BONUS DI BENVENUTO</span>
+              <span style={{ fontFamily: M, fontSize: 10, color: BL, letterSpacing: "0.1em", fontWeight: 700 }}>LINK RISERVATO</span>
             </div>
 
-            <p style={{ fontFamily: F, fontSize: 20, fontWeight: 800, color: TX, margin: "0 0 16px", letterSpacing: "-0.02em" }}>
-              Apri con il link di Sao
+            <p style={{ fontFamily: F, fontSize: 20, fontWeight: 800, color: TX, margin: "0 0 6px", letterSpacing: "-0.02em" }}>
+              Vuoi aprire Trade Republic?
+            </p>
+            <p style={{ fontSize: 13, color: DM, margin: "0 0 16px", lineHeight: 1.6 }}>
+              Scrivimi su Instagram — ti mando il link personale con il bonus di benvenuto attivo.
             </p>
 
             {/* Steps */}
             {[
-              { n: "1", t: "Apri il conto gratis", d: "Usa il link qui sotto. Ci vogliono 10 minuti, solo dal telefono." },
-              { n: "2", t: "Fai 3 investimenti e versa €100", d: "Entro i primi 21 giorni dall'iscrizione. Anche €100 in una volta sola va benissimo." },
-              { n: "3", t: "Ricevi il tuo bonus di benvenuto", d: "Trade Republic ti accredita il 3% di interessi per 3 mesi. È tuo, solo per aver iniziato." },
+              { n: "1", t: "Scrivimi su Instagram", d: "Mandami un messaggio su @saothefilmmaker. Ci vogliono 30 secondi." },
+              { n: "2", t: "Ricevi il link riservato", d: "Ti rispondo con il link per aprire Trade Republic e attivare il bonus." },
+              { n: "3", t: "Apri il conto e investi", d: "10 minuti dal telefono. Fai 3 investimenti e versa €100 entro 21 giorni: il bonus è tuo." },
             ].map((s, i) => (
               <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: i < 2 ? 14 : 20 }}>
                 <div style={{
@@ -495,14 +498,14 @@ export default function App() {
               </div>
             ))}
 
-            <a href="https://refnocode.trade.re/gvj7rdnw" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://ig.me/m/saothefilmmaker" target="_blank" rel="noopener noreferrer" style={{
               display: "block", textAlign: "center",
               background: BL, color: "#fff",
               borderRadius: 14, padding: "15px",
               fontSize: 15, fontWeight: 800, fontFamily: F,
               textDecoration: "none", letterSpacing: "-0.01em",
             }}>
-              Apri Trade Republic →
+              Scrivimi su Instagram →
             </a>
           </div>
         </div>
