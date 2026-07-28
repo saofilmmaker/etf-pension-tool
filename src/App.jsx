@@ -498,15 +498,21 @@ export default function App() {
               </div>
             ))}
 
-            <a href="https://ig.me/m/saothefilmmaker" target="_blank" rel="noopener noreferrer" style={{
-              display: "block", textAlign: "center",
+            <button onClick={() => {
+              navigator.clipboard.writeText("Ciao! Ho usato il tuo tool ETF e voglio aprire Trade Republic con il tuo link 🌱");
+              window.open("https://ig.me/m/saothefilmmaker", "_blank");
+            }} style={{
+              display: "block", textAlign: "center", width: "100%",
               background: BL, color: "#fff",
               borderRadius: 14, padding: "15px",
               fontSize: 15, fontWeight: 800, fontFamily: F,
-              textDecoration: "none", letterSpacing: "-0.01em",
+              border: "none", cursor: "pointer", letterSpacing: "-0.01em",
             }}>
               Scrivimi su Instagram →
-            </a>
+            </button>
+            <p style={{ textAlign: "center", fontFamily: M, fontSize: 10, color: `${BL}70`, margin: "8px 0 0", lineHeight: 1.6 }}>
+              Il messaggio viene copiato automaticamente — incollalo nel DM
+            </p>
           </div>
         </div>
 
