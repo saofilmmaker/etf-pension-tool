@@ -474,14 +474,14 @@ export default function App() {
               Vuoi aprire Trade Republic?
             </p>
             <p style={{ fontSize: 13, color: DM, margin: "0 0 16px", lineHeight: 1.6 }}>
-              Scrivimi su Instagram — ti mando il link personale con il bonus di benvenuto attivo.
+              Scrivimi su Instagram — ti mando il link. Chi apre il conto riceve <strong style={{ color: TX }}>un'azione o ETF gratis fino a €200</strong>.
             </p>
 
             {/* Steps */}
             {[
-              { n: "1", t: "Clicca il bottone qui sotto", d: "Il messaggio viene copiato automaticamente. Apri il DM e incolla — ci vuole 1 tap." },
-              { n: "2", t: "Ricevi il link riservato", d: "Ti rispondo con il link per aprire Trade Republic e attivare il bonus." },
-              { n: "3", t: "Apri il conto e investi", d: "10 minuti dal telefono. Fai 3 investimenti e versa €100 entro 21 giorni: il bonus è tuo." },
+              { n: "1", t: "Clicca il bottone qui sotto", d: "Il messaggio viene copiato automaticamente. Apri il DM e incollalo — ci vuole 1 tap." },
+              { n: "2", t: "Ricevi il link riservato", d: "Ti rispondo con il link personale per aprire Trade Republic." },
+              { n: "3", t: "Apri il conto e ricevi la tua azione gratis", d: "10 minuti dal telefono. Completa la registrazione e ricevi un'azione o ETF casuale del valore tra €5 e €200." },
             ].map((s, i) => (
               <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start", marginBottom: i < 2 ? 14 : 20 }}>
                 <div style={{
