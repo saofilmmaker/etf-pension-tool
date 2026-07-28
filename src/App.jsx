@@ -340,7 +340,7 @@ export default function App() {
             <div style={{ display: "flex", gap: 8, marginTop: 16 }}>
               {[
                 { v: "0€", l: "commissioni PAC" },
-                { v: "3.25%", l: "sul liquido" },
+                { v: "3%", l: "sul liquido" },
                 { v: "10min", l: "per aprire" },
               ].map((s, i) => (
                 <div key={i} style={{
@@ -398,8 +398,8 @@ export default function App() {
                     <circle cx="9" cy="10" r="1.5"/>
                   </svg>
                 ),
-                t: "3.25% sui soldi fermi",
-                d: "Il tuo fondo d'emergenza rende il 3.25% senza fare nulla.",
+                t: "3% sui soldi fermi",
+                d: "Il tuo fondo d'emergenza rende il 3% senza fare nulla.",
               },
             ].map((item, i) => (
               <div key={i} style={{
