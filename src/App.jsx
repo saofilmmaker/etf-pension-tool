@@ -514,9 +514,6 @@ export default function App() {
               }}>
               Scrivimi su Instagram →
             </a>
-            <p style={{ textAlign: "center", fontFamily: M, fontSize: 10, color: `${BL}70`, margin: "8px 0 0", lineHeight: 1.6 }}>
-              Il messaggio viene copiato automaticamente — incollalo nel DM
-            </p>
           </div>
         </div>
 
