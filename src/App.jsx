@@ -496,7 +496,7 @@ export default function App() {
                   <p style={{ margin: 0, fontSize: 12, color: DM, lineHeight: 1.5 }}>{s.d}</p>
                   {i === 0 && (
                     <p style={{ margin: "6px 0 0", fontFamily: M, fontSize: 11, color: BL, background: `${BL}12`, border: `1px solid ${BL}30`, borderRadius: 8, padding: "6px 10px", lineHeight: 1.5 }}>
-                      "Ciao! Ho usato il tuo tool ETF e voglio aprire Trade Republic con il tuo link 🌱"
+                      "Ho fatto la simulazione, numeri pazzeschi! Voglio iniziare, mandami il link per Trade Republic 🚀"
                     </p>
                   )}
                 </div>
@@ -504,7 +504,7 @@ export default function App() {
             ))}
 
             <a href="https://ig.me/m/saothefilmmaker" target="_blank" rel="noopener noreferrer"
-              onClick={() => navigator.clipboard.writeText("Ciao! Ho usato il tuo tool ETF e voglio aprire Trade Republic con il tuo link 🌱")}
+              onClick={() => navigator.clipboard.writeText("Ho fatto la simulazione, numeri pazzeschi! Voglio iniziare, mandami il link per Trade Republic 🚀")}
               style={{
                 display: "block", textAlign: "center",
                 background: BL, color: "#fff",
